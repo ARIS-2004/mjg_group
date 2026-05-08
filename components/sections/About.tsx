@@ -227,7 +227,7 @@ export default function About() {
                   <span className="absolute right-3 top-3 h-1.5 w-1.5 rounded-full bg-brand-500 ring-2 ring-brand-500/20" />
 
                   <div className="flex items-start gap-3">
-                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700 transition-colors group-hover:bg-brand-500 group-hover:text-white">>
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700 transition-colors group-hover:bg-brand-500 group-hover:text-white">
                       <e.icon className="h-4 w-4" />
                     </div>
                     <div>
