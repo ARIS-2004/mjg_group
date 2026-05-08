@@ -214,7 +214,7 @@ export default function Leadership() {
 
                 {/* Refined initials badge — top-left */}
                 <div className="absolute left-5 top-5 z-10">
-                  <div className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-white font-display text-[13px] font-bold shadow-[0_10px_24px_-6px_rgba(0,0,0,0.5)] ring-1 ring-white/30 backdrop-blur-md">
+                  <div className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-brand-900/80 text-white font-display text-[13px] font-bold shadow-[0_10px_24px_-6px_rgba(0,0,0,0.6)] ring-1 ring-white/40 backdrop-blur-md">
                     {p.initials}
                     <span className="absolute -bottom-0.5 left-2 right-2 h-[2px] rounded-full bg-accent-500" />
                   </div>
@@ -224,7 +224,7 @@ export default function Leadership() {
                 <a
                   href="#"
                   aria-label={`${p.name} on LinkedIn`}
-                  className="absolute right-5 top-5 z-10 flex h-9 w-9 items-center justify-center rounded-full border border-white/25 bg-white/10 text-white backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-white hover:text-[#0077b5] hover:border-white"
+                  className="absolute right-5 top-5 z-10 flex h-9 w-9 items-center justify-center rounded-full border border-white/40 bg-brand-900/80 text-white backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-white hover:text-[#0077b5] hover:border-white"
                 >
                   <Linkedin className="h-3.5 w-3.5" />
                 </a>
