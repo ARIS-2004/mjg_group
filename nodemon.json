@@ -1,0 +1,6 @@
+{
+  "watch": ["next.config.js", "package.json", "tailwind.config.ts"],
+  "ext": "js,ts,tsx,json",
+  "ignore": [".next/**", "node_modules/**", "public/**"],
+  "delay": 1500
+}
